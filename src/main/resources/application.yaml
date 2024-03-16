@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://hedgebanan.beget.tech:3306/hedgebanan_toys?noAccessToProcedureBodies=true
+    username: hedgebanan_toys
+    password: ToysDB123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
